@@ -9,6 +9,10 @@ const Wrapper = styled.div`
   padding: 30px;
   width: 100%;
   height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 `;
 
 const Title = styled.h2`
